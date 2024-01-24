@@ -13,7 +13,6 @@ services:
       - key: DB_TYPE
         value: postgres
         # value: sqlite3
-        sync: false
       - key: DB_HOST
         # value: db_host
         sync: false
@@ -32,7 +31,6 @@ services:
       - key: DB_TABLE_PREFIX
         # value: alist_
         value: bililist
-        sync: false
       - key: CDN
         # value: https://npm.elemecdn.com/alist-web@$version/dist
         sync: false
